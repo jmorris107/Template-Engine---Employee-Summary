@@ -47,6 +47,8 @@ async function start(){
     // Variable to hold number of team members
     let teamSize;
 
+    // hold the team 
+    const teamMember = [];
     // First Question to ask to set up loop
     await inquirer.prompt(
         {
@@ -113,9 +115,8 @@ async function start(){
         // Switch Case depending on the title of the employee
         switch (title){
             case "Manager":
-
                 // ask user of Manager's Office Number
-                await inquirer.prompt([
+                inquirer.prompt([
                     {
                         type: "input",
                         message: "What is your Manager's Office Number?",
@@ -126,9 +127,13 @@ async function start(){
 
                     // Create a new object with all avaiable user input data
                     const manager = new Manager(name, id, email, data.officeNo);
-
+                    
+                    // make the team 
+                    teamMember.push(manager);
+                    console.log(teamMember);
+                    // 
                     // Reads and places HTML from manager.html in teamMemever Variable
-                    teamMember = fs.readFileSync("templates/manager.html");
+                    fs.readFileSync(outputPath, render(teamMember), "utf-8");
 
                     // Uses eval() to pass template literals from html files.
                     // Adds the string to the team HTML.
@@ -147,7 +152,7 @@ async function start(){
                 ])
                 .then((data) => {
                     const intern = new Intern(name, id, email, data.school);
-                    teamMember = fs.readFileSync("templates/intern.html");
+                    fs.readFileSync("templates/intern.html", render(teamMember), "utf-8");
                     teamHTML = teamHTML + "\n" + eval('`'+ teamMember +'`');
                 });
                 break;
@@ -163,7 +168,7 @@ async function start(){
                 ])
                 .then((data) => {
                     const engineer = new Engineer(name, id, email, data.github);
-                    teamMember = fs.readFileSync("templates/engineer.html");
+                    fs.readFileSync("templates/engineer.html", render(teamMember), "utf-8");
                     teamHTML = teamHTML + "\n" + eval('`'+ teamMember +'`');
                 });
                 break;
