@@ -17,18 +17,30 @@
   - [Test](#test)
   - [Questions](#questions)
 
+ # Acceptance Criteria
+1. Functional application.
+2. GitHub repository with a unique name and a README describing the project.
+3. User can use the CLI to generate an HTML page that displays information about      their team.
+
+4. All tests must pass.
+
+
   # Installation
-  🗳 
-  A
+  🗳 <code>Node.js</code><code>npm install inquirer</code>
   # Usage
-  💻 
+  💻 Run node app.js on Terminal(Mac) or Gitbash(Windows) and answer the prompt questions. <code>node app.js</code>
   A
   # Contribution
-  👩🏻‍💻 
+  👩🏻‍💻 <a href="https://github.com/jmorris107">Jennifer Morris</a>
   A
   # Test
   🧩
-  A
+1. Run tests
+2. Create or update classes to pass a single test case
+3. Repeat
+
+🎗 Remember, you can run the tests at any time with <code>npm run test</code>
+  
   # License
   🚀
   None
