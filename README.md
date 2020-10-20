@@ -28,15 +28,17 @@
 
 4. All tests must pass.
 
+![Team Generator image](src/team.generator.jpg)
+
 
   # Installation
   🗳 <code>Node.js</code><code>npm install inquirer</code>
   # Usage
   💻 Run node app.js on Terminal(Mac) or Gitbash(Windows) and answer the prompt questions. <code>node app.js</code>
-  A
+  
   # Contribution
   👩🏻‍💻 <a href="https://github.com/jmorris107">Jennifer Morris</a>
-  A
+  
   # Test
   🧩
 1. Run tests
@@ -50,6 +52,6 @@
   None
 
   # Questions❓
-  :octocat: My GitHub link: [](https://github.com/)<br />
+  :octocat: My GitHub link: [jmorris107](https://github.com/)<br />
   <br />
    📩 If you have any question, email me here: jenniferinbaranoseidou@gmail.com<br /><br />
