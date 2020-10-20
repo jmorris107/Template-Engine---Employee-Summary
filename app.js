@@ -14,25 +14,21 @@ var newEmployees = [];
 
 function employeeRole(){
     inquirer.prompt(
-        [{
-            type:'input',
-            message: 'What is your name?',
-            name: 'name'
-        },
+        [
         {
-            type: 'input',
-            message: 'What is your id?',
-            name: 'id'
-        },
-        {
-            type: 'input',
-            message: 'What is your email?',
-            name: 'email'
-        },
-        {
-            type: 'input',
+            type: 'list',
             message: 'What is your role?',
-            name: 'role'
+            name: 'role',
+            choices: [
+
+                "Engineer",
+            
+                "Intern",
+            
+                "Manager",
+
+            
+                    ]
         }]
     ).then(function(response){
         if (response.role === "Engineer"){
