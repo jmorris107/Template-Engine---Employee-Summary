@@ -7,6 +7,8 @@
   📝 This is a team generator command line application. The application will prompt the user for information about the team manager and then information about the team members.
 <p>
 <a href="https://youtu.be/KDYLwKzrlbc" rel="nofollow"><g-emoji class="g-emoji" alias="video_camera" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f9.png">📹</g-emoji>Full video for the functional demonstration of the application is here.</a>
+
+![Team Generator](src/team.generator.gif)
    
 <img src="src/team.generator.gif" alt="Team Generator>
 
