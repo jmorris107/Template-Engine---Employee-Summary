@@ -8,7 +8,7 @@
 
 <a href="https://youtu.be/KDYLwKzrlbc" rel="nofollow"><g-emoji class="g-emoji" alias="video_camera" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f9.png">📹</g-emoji>Full video for the functional demonstration of the application is here.</a>
     <a target="_blank" rel="noopener noreferrer" href="/jmorris107/Template-Engine---Employee-Summary.github.io/blob/main/src/team.generator.gif"><img src="/jmorris107/Good-README-Generator.github.io/raw/main/src/jennifer.readme.gif" alt="Jennifer README Generator" style="max-width:100%;"></a>
-    <img src="/jmorris107/Template-Engine---Employee-Summary.github.io/raw/main/src/team.generator.gif" alt="Team Generator" style="max-width:100%;">
+    <img src="/jmorris107/Template-Engine---Employee-Summary.github.io/raw/main/src/team.generator.gif" alt="Team Generator" style="max-width:100%;"></a>
 
   ## Table of Contents
   - [Description](#description)
