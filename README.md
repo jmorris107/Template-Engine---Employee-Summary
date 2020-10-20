@@ -1,7 +1,7 @@
 
 # Team Generator using Node.js💡
   
-  
+  ![alt text](https://img.shields.io/badge/node-v12.19.0-green.svg)
   
   # Description
   📝 This is a team generator command line application. The application will prompt the user for information about the team manager and then information about the team members.
