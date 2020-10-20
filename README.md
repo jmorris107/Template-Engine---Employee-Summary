@@ -3,13 +3,12 @@
   
   ![node badge](https://img.shields.io/badge/node-v12.19.0-green.svg)
   ![repo size badge](https://img.shields.io/badge/reposize-6.71MB-blue.svg)
-  ![Javascriptsize badge](https://img.shields.io/badge/JavaScript-64.8%-blue.svg)
-  ![HTMLsize badge](https://img.shields.io/badge/HTML-35.2%-blue.svg)
+  ![Javascriptsize badge](https://img.shields.io/badge/javascript-64.8%-blue.svg)
+  ![HTMLsize badge](https://img.shields.io/badge/html-35.2%-blue.svg)
 
   ![Javascript badge](https://img.shields.io/badge/JavaScript-yellow.svg)
   ![jQuery badge](https://img.shields.io/badge/JavaScript-blue.svg)
   ![node.js badge](https://img.shields.io/badge/node.js-green.svg)
-  ![inquirer](https://img.shields.io/badge/inquirer-orange.svg)
   ![inquirer](https://img.shields.io/badge/inquirer-red.svg)
   ![json](https://img.shields.io/badge/json-orange.svg)
   
