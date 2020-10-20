@@ -1,7 +1,18 @@
 
 # Team Generator using Node.js💡
   
-  ![alt text](https://img.shields.io/badge/node-v12.19.0-green.svg)
+  ![node badge](https://img.shields.io/badge/node-v12.19.0-green.svg);
+  ![repo size badge](https://img.shields.io/badge/reposize-6.71MB-blue.svg);
+  ![Javascript size badge](https://img.shields.io/badge/JavaScript-64.8%-blue.svg);
+  ![HTML size badge](https://img.shields.io/badge/HTML-35.2%-blue.svg);
+
+  ![Javascript badge](https://img.shields.io/badge/JavaScript-yellow.svg);
+  ![jQuery badge](https://img.shields.io/badge/JavaScript-blue.svg);
+  ![node.js badge](https://img.shields.io/badge/node.js-green.svg);
+  ![inquirer](https://img.shields.io/badge/inquirer-orange.svg);
+  ![inquirer](https://img.shields.io/badge/inquirer-red.svg);
+  ![json](https://img.shields.io/badge/json-orange.svg);
+  
   
   # Description
   📝 This is a team generator command line application. The application will prompt the user for information about the team manager and then information about the team members.
