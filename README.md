@@ -10,7 +10,6 @@
 
 ![Team Generator](src/team.generator.gif)
    
-<img src="src/team.generator.gif" alt="Team Generator>
 
   ## Table of Contents
   - [Description](#description)
@@ -28,7 +27,7 @@
 
 4. All tests must pass.
 
-![Team Generator image](src/team.generator.jpg)
+![Team Generator image](src/team.generator.image.jpg)
 
 
   # Installation
