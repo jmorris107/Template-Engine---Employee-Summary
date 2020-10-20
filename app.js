@@ -9,12 +9,14 @@ console.log("hello");
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 const render = require("./lib/htmlRenderer");
+
 var newEmployees = [];
 
 
 function employeeRole(){
     inquirer.prompt(
         [
+        
         {
             type: 'list',
             message: 'What is your role?',
@@ -27,9 +29,12 @@ function employeeRole(){
             
                 "Manager",
 
-            
+                "No more employees"
                     ]
-        }]
+        }
+     ]
+
+
     ).then(function(response){
         if (response.role === "Engineer"){
                 inquirer.prompt([
@@ -52,7 +57,9 @@ function employeeRole(){
                         type: "input",
                         message: "what is your github?",
                         name: "github"
-                    }
+                    },
+
+                    
                 ]).then(function(response){
                     var newEngineer = new Engineer(response.name, response.id, response.email, response.github);
                     newEngineer['role'] = newEngineer.getRole();
@@ -60,6 +67,9 @@ function employeeRole(){
                     var main = render(newEmployees);
                     fs.writeFile(outputPath, main, function(){
                         console.log("A new engineer is added to the team.html");
+
+                    employeeRole();
+                
                     })
                 })
             }
@@ -90,47 +100,55 @@ function employeeRole(){
                     newIntern['role'] = newIntern.getRole();
                     newEmployees.push(newIntern);
                     var main = render(newEmployees);
+                    fs.writeFile(outputPath, main, function(){
+                    console.log("A new intern is added to the team.html");
+
+                    employeeRole();
+
                 })
-            }
-
-
-if (response.role === "manager"){
-    inquirer.prompt([
-        {
-            type: "input",
-            message: "What is your name?",
-            name: "name"
-        },
-        {
-            type: "input",
-            message: "What is your id?",
-            name: "id"
-        },
-        {
-            type: "input",
-            message: "What is your email?",
-            name: "email"
-        },
-        {
-            type: "input",
-            message: "What is your office number?",
-            name: "officeNumber"
+            })
         }
-    ]).then(function(response){
-        var newManager = new Manager(response.name, response.id, response.email, response.officeNumber);
-        newManager['role'] = newManager.getRole();
-        newEmployees.push(newManager);
-        var main = render(newEmployees);
-    })
-}
 
+                if (response.role === "Manager"){
+                    inquirer.prompt([
+                     {
+                        type: "input",
+                        message: "What is your name?",
+                        name: "name"
+                    },
+                     {
+                        type: "input",
+                        message: "What is your id?",
+                        name: "id"
+                    },
+                     {
+                         type: "input",
+                         message: "What is your email?",
+                         name: "email"
+                    },
+                    {
+                         type: "input",
+                         message: "What is your office number?",
+                         name: "officeNumber"
+                     }
+                ]).then(function(response){
+                var newManager = new Manager(response.name, response.id, response.email, response.officeNumber);
+                newManager['role'] = newManager.getRole();
+                newEmployees.push(newManager);
+                var main = render(newEmployees);
+                fs.writeFile(outputPath, main, function(){
+                console.log("A new manager is added to the team.html");
+
+                employeeRole();
+
+                })
+            })
+        }
 
 
         })
     }
-
-
-employeeRole();
+    employeeRole();
 
 
 // Write code to use inquirer to gather information about the development team members,
@@ -151,5 +169,4 @@ employeeRole();
 // for further information. Be sure to test out each class and verify it generates an 
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work!```
-
 
