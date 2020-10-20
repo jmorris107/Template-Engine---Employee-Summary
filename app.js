@@ -40,22 +40,22 @@ function employeeRole(){
                 inquirer.prompt([
                     {
                         type: "input",
-                        message: "What is your name?",
+                        message: "What is the engineer's name?",
                         name: "name"
                     },
                     {
                         type: "input",
-                        message: "What is your id?",
+                        message: "Enter ID.",
                         name: "id"
                     },
                     {
                         type: "input",
-                        message: "What is your email?",
+                        message: "Enter email address.",
                         name: "email"
                     },
                     {
                         type: "input",
-                        message: "what is your github?",
+                        message: "Enter github username.",
                         name: "github"
                     },
 
@@ -77,22 +77,22 @@ function employeeRole(){
                 inquirer.prompt([
                     {
                         type: "input",
-                        message: "What is your name?",
+                        message: "What is the intern's name?",
                         name: "name"
                     },
                     {
                         type: "input",
-                        message: "What is your id?",
+                        message: "Enter ID.",
                         name: "id"
                     },
                     {
                         type: "input",
-                        message: "What is your email?",
+                        message: "Enter email address.",
                         name: "email"
                     },
                     {
                         type: "input",
-                        message: "What school are you attending?",
+                        message: "Enter the schools that the intern is attending.",
                         name: "school"
                     }
                 ]).then(function(response){
@@ -113,22 +113,22 @@ function employeeRole(){
                     inquirer.prompt([
                      {
                         type: "input",
-                        message: "What is your name?",
+                        message: "What is the manager's name?",
                         name: "name"
                     },
                      {
                         type: "input",
-                        message: "What is your id?",
+                        message: "Enter ID.",
                         name: "id"
                     },
                      {
                          type: "input",
-                         message: "What is your email?",
+                         message: "Enter email address.",
                          name: "email"
                     },
                     {
                          type: "input",
-                         message: "What is your office number?",
+                         message: "Enter office number.",
                          name: "officeNumber"
                      }
                 ]).then(function(response){
