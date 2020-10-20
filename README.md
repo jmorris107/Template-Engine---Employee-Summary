@@ -8,6 +8,8 @@
 
   <a href="https://youtu.be/KDYLwKzrlbc" rel="nofollow"><g-emoji class="g-emoji" alias="video_camera" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f9.png">📹</g-emoji>Full video for the functional demonstration of the application is here.</a>
 
+  <img src="/jmorris107/Template-Engine---Employee-Summary.github.io/raw/main/src/team.generator.gif" alt="Jennifer Team Generator" style="max-width:100%;">
+
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
