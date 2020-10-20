@@ -29,7 +29,7 @@
   - [Test](#test)
   - [Questions](#questions)
 
- # Acceptance Criteria
+ # Minimum requirements
 1. Functional application.
 2. GitHub repository with a unique name and a README describing the project.
 3. User can use the CLI to generate an HTML page that displays information about      their team.
