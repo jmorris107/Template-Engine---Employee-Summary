@@ -6,7 +6,7 @@
 
 
   ![Javascript badge](https://img.shields.io/badge/JavaScript-yellow.svg)
-  ![jQuery badge](https://img.shields.io/badge/JavaScript-blue.svg)
+  ![jQuery badge](https://img.shields.io/badge/jQuery-blue.svg)
   ![node.js badge](https://img.shields.io/badge/node.js-green.svg)
   ![inquirer](https://img.shields.io/badge/inquirer-red.svg)
   ![json](https://img.shields.io/badge/json-orange.svg)
